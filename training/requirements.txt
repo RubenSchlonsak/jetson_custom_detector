@@ -1,0 +1,10 @@
+torch>=1.9.0   # Or a version compatible with your torchvision
+torchvision>=0.10.0 # Or a version compatible with your torch
+numpy
+opencv-python-headless # For data augmentation/processing without GUI
+matplotlib
+tqdm
+kaggle # For downloading the dataset
+Pillow # For image loading in dataset
+scipy # Sometimes a dependency for torchvision transforms or other ops
+# pycocotools if you plan to use COCO evaluation metrics (optional)

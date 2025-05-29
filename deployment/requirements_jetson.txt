@@ -1,0 +1,3 @@
+numpy
+# opencv-python is usually included in the l4t-ml image.
+# pycuda is often included in the l4t-ml image or installed via apt on Jetson.
