@@ -1,0 +1,41 @@
+# Python Bytecode and Caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+env/
+venv/
+ENV/
+PENv/
+.env
+.venv
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Datasets (usually too large for Git)
+data/*
+!data/.gitkeep
+!data/custom_dataset/README.md # Optionally, keep a Readme for the dataset
+
+# Large model files (better to use Git LFS or store externally)
+models/source_model/*
+!models/source_model/.gitkeep
+models/onnx_model/*
+!models/onnx_model/.gitkeep
+models/tensorrt_engine/*
+!models/tensorrt_engine/.gitkeep
+# Uncomment if you want to version small engine files:
+# !models/tensorrt_engine/your_model.engine
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
