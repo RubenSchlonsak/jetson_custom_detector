@@ -1,4 +1,4 @@
-# Jetson Custom Detector (Hackathon Project)
+# Jetson Custom Detector
 
 This project aims to train a custom object detection model and deploy it on an NVIDIA Jetson Nano using Docker and TensorRT.
 
